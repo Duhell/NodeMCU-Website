@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+
+const char NoPic[] = R"=====(
+  <!DOCTYPE html>
 <html class="scroll-smooth" lang="en">
 
 <head>
@@ -9,9 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="node_modules/alpinejs/dist/cdn.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>Group 3</title>
+    <style>
+        html{
+    /* font-family: 'Lexend', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+    </style>
 </head>
 
 
@@ -36,7 +43,6 @@
     <main class="md:px-32 px-3 ">
 
         <div class="mx-auto mt-14 flex flex-col container flex rounded-lg overflow-hidden">
-            <img class="w-[200px] mx-auto rounded-full h-[200px] object-cover" src="img/ser.jpg" alt="">
             <div class="px-4  pb-8 pt-4 text-center">
                 <p class="font-bold text-4xl ">Jayson John Quintanilla</p>
                 <p class="text-xl mt-1 font-semibold">Instructor</p>
@@ -49,7 +55,6 @@
                 <div
                     class="flex flex-col md:flex-row justify-center md:items-center text-center md:text-start space-y-7 md:space-x-7 md:px-6 py-8 hover:shadow-[0_35px_60px_-15px_rgba(180,180,180,0.3)] transition duration-600 rounded-lg"
                     >
-                    <img class="w-[250px] h-[250px] rounded-full mx-auto" src="img/ID.png" alt="">
                     <div>
                         <p class="font-bold text-4xl">Kym Alcansado Ape</p>
                         <p class="text-xl font-semibold mt-1">Programmer</p>
@@ -99,7 +104,7 @@
     
                 <div id="patricia"
                     class="flex flex-col md:flex-row-reverse text-center md:text-start items-center space-y-7 md:space-x-7  md:space-x-10 px-6 py-8 hover:shadow-[0_35px_60px_-15px_rgba(180,180,180,0.3)] transition duration-600 rounded-lg">
-                    <img class="w-[250px] h-[250px] rounded-full" src="img/pat.jpeg" alt="">
+                    
                     <div class="flex flex-col">
                         <p class="font-bold text-4xl">Patricia Marie Embang</p>
                         <p class="text-xl font-semibold mt-1">Writer</p>
@@ -137,7 +142,7 @@
                 class="flex flex-col md:flex-row justify-center md:items-center text-center md:text-start space-y-7 md:space-x-7 md:px-6 py-8 hover:shadow-[0_35px_60px_-15px_rgba(180,180,180,0.3)] transition duration-600 rounded-lg"
     
                     >
-                    <img class="w-[250px] h-[250px] rounded-full mx-auto" src="img/shayne.jpeg" alt="">
+                    
                     <div class="flex flex-col">
                         <p class="font-bold text-4xl">Shayne Exequiel</p>
                         <p class="text-xl font-semibold mt-1">Main Writer</p>
@@ -180,7 +185,7 @@
     
                 <div id="prench"
                 class="flex flex-col md:flex-row-reverse text-center md:text-start items-center space-y-7 md:space-x-7  md:space-x-10 px-6 py-8 hover:shadow-[0_35px_60px_-15px_rgba(180,180,180,0.3)] transition duration-600 rounded-lg">
-                    <img class="w-[250px] h-[250px] rounded-full" src="img/prench.jpeg" alt="">
+                   
                     <div class="flex flex-col">
                         <p class="font-bold text-4xl">Prench Joseph Infante</p>
                         <p class="text-xl font-semibold mt-1">Hardware Designer</p>
@@ -225,7 +230,7 @@
                 class="md:flex justify-center md:items-center text-center md:text-start space-y-7 md:space-x-7 md:px-6 py-8 hover:shadow-[0_35px_60px_-15px_rgba(180,180,180,0.3)] transition duration-600 rounded-lg"
     
                     >
-                    <img class="w-[250px] h-[250px] rounded-full mx-auto" src="img/tup.png" alt="">
+                
                     <div class="flex flex-col">
                         <p class="font-bold text-4xl">Ryan Villarma</p>
                         <p class="text-xl font-semibold mt-1">Programmer</p>
@@ -268,7 +273,6 @@
     
                 <div id="jan"
                 class="flex flex-col md:flex-row-reverse text-center md:text-start items-center space-y-7 md:space-x-7  md:space-x-10 px-6 py-8 hover:shadow-[0_35px_60px_-15px_rgba(180,180,180,0.3)] transition duration-600 rounded-lg">
-                    <img class="w-[250px] h-[250px] rounded-full    " src="img/jan.jpeg" alt="">
                     <div class="flex flex-col">
                         <p class="font-bold text-4xl">Janriste Villasor</p>
                         <p class="text-xl font-semibold mt-1">Hardware Designer</p>
@@ -311,3 +315,4 @@
 </body>
 
 </html>
+)=====";
